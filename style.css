@@ -1,0 +1,150 @@
+.wrapper {
+    width: 350px;
+    height: 450px;
+    background-color: #057a4f;
+    margin: 50px auto;
+    border: solid 2px #046240;
+    border-radius: 7px;
+}
+
+button {
+    border: 0;
+    color: #fff;
+}
+
+.buttonHolder {
+    width: 90%;
+    height: 70%;
+    margin: 40px auto;
+    margin-top: -40px;
+}
+
+.numbers {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    background-color: #0d0d0d;
+    color: wheat;
+    cursor: pointer;
+}
+
+.zero {
+    margin-top: 10px;
+    width: 110px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-color: #0d0d0d;
+    color: wheat;
+    cursor: pointer;
+}
+
+.point {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-color: #0d0d0d;
+    color: wheat;
+    cursor: pointer;
+}
+
+.delete {
+    margin-top: 10px;
+    width: 110px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 4px;
+    background-color: #0d0d0d;
+    color: wheat;
+    cursor: pointer;
+}
+
+.numberHolder {
+    position: relative;
+    width: 70%;
+}
+
+.operators {
+    width: 120px;
+    float: right;
+    margin-top: -300px;
+}
+
+.allOperators {
+    width: 110px;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: #0d0d0d;
+    color: wheat;
+    cursor: pointer;
+}
+
+.equal {
+    width: 110px;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 24px;
+    background-color: #0d0d0d;
+    color: wheat;
+    cursor: pointer;
+}
+
+#result {
+    display: block;
+    font-family: sans-serif;
+    width: 260px;
+    height: 45px;
+    margin: 10px auto;
+    text-align: right;
+    border: 0;
+    border-radius: 7px;
+    background: #3b3535;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 8px;
+    outline: none;
+    letter-spacing: 4px;
+    position: relative;
+    top: 10px;
+    overflow: auto;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#finalResult {
+    display: block;
+    font-family: sans-serif;
+    width: 75px;
+    height: 45px;
+    margin: 10px auto;
+    text-align: right;
+    border: 0;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #3b3535;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 268px;
+    outline: none;
+    letter-spacing: 4px;
+    position: relative;
+    top: -65px;
+    overflow: auto;
+}

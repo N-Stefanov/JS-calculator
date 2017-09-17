@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div id="result"></div>
+        <div id="finalResult"></div>
+        <div class="buttonHolder">
+            <button value="delete" class="delete" id="delete">Reset</button>
+            <div class="numberHolder">
+                <div class="numbers">
+                    <button value="7" id="testt" class="number">7</button>
+                    <button value="8" class="number testt">8</button>
+                    <button value="9" class="number testt">9</button>
+
+
+                    <button value="4" class="number">4</button>
+                    <button value="5" class="number">5</button>
+                    <button value="6" class="number">6</button>
+
+                    <button value="1" class="number">1</button>
+                    <button value="2" class="number">2</button>
+                    <button value="3" class="number">3</button>
+
+                    <button value="0" id="zero" class="zero">0</button>
+                    <button value="." id="point" class="point ">.</button>
+                </div>
+            </div>
+            <div class="operators">
+                <button value="+" class="allOperators stopDClick mainOperators">+</button>
+                <button value="-" class="allOperators stopDClick mainOperators">-</button>
+                <button value="/" id="stopOperator divide" class="allOperators stopOperator stopDClick divide">/</button>
+                <button value="*" id="stopOperator" class="allOperators stopOperator stopDClick ">*</button>
+                <button value="=" class="equal">=</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
